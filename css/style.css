@@ -1,0 +1,28 @@
+*,
+body,
+ul,
+li,
+a,
+button {
+  font-family: "Baloo 2", cursive;
+}
+body {
+  background-color: #323232;
+}
+.cabecalho,
+.footer {
+  background-image: linear-gradient(to bottom, #84e, #92d);
+  color: #fff;
+}
+.card {
+  background-color: #84e;
+  color: #fff;
+  margin-top: 15px;
+}
+.card:hover {
+  background-image: linear-gradient(to bottom, #84e, #92d);
+}
+.card ul,
+.card ul li {
+  background-color: rgba(0, 0, 0, 0);
+}
