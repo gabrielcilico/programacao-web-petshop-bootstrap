@@ -9,20 +9,37 @@ button {
 body {
   background-color: #323232;
 }
+a,
+a:hover,
+.cabecalho,
+.footer,
+.card {
+  color: #fff;
+}
 .cabecalho,
 .footer {
-  background-image: linear-gradient(to bottom, #84e, #92d);
-  color: #fff;
+  background: linear-gradient(to bottom, #eda81d, #ab8711);
 }
 .card {
-  background-color: #84e;
-  color: #fff;
-  margin-top: 15px;
+  background-color: #eda81d;
+  margin: 15px 0;
 }
 .card:hover {
-  background-image: linear-gradient(to bottom, #84e, #92d);
+  background: linear-gradient(to bottom, #eda81d, #ab8711);
 }
 .card ul,
 .card ul li {
   background-color: rgba(0, 0, 0, 0);
+}
+body {
+  position: relative;
+}
+.pegadas {
+  width: 500px;
+  height: 550px;
+  bottom: 35px;
+  right: 0;
+  position: absolute;
+  background: url("../img/pegadas.png") no-repeat;
+  background-size: cover;
 }
