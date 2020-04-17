@@ -13,14 +13,16 @@ a,
 a:hover,
 .cabecalho,
 .footer,
-.card {
+.card,
+.modal-content {
   color: #fff;
 }
 .cabecalho,
 .footer {
   background: linear-gradient(to bottom, #eda81d, #ab8711);
 }
-.card {
+.card,
+.modal-content {
   background-color: #eda81d;
   margin: 15px 0;
 }
